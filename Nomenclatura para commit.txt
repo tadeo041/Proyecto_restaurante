@@ -1,0 +1,26 @@
+
+# -- nomenclatura de mesanje de comit --
+# $ <tipo(<área>): <mensaje>
+# <tipo> : idica el propósito del commit, que son:
+#	- 'feat' para una nueva caracteristica para el usuario .
+#	- 'fix' para una correcion de error.
+#	- 'add' para indicar que se añade un nuevo archivo.
+#	- 'docs' para cambios en el documentacion. 
+#	- 'perf' cambios que mejoran el rendimineto del sitio web.
+#	- 'refactor' Refactorización del códigoi como cambios de nombre de variable o funciones.
+#	- 'file" para indicar que se añade una nueva carpeta 
+#
+# <área> : es para especificar la parte del proyecto afectada.
+#
+# <mensaje> : Debe ser breve y describir de manera concisa los camibos realizados. 
+#
+# - Ejemplo - 
+#		$ feat(usuario): Agregando funcion de inicio de sesión
+#
+# -- Reglas para los commit --
+#
+# - mensaje - 
+#	1. No escribir puntos al final del mensaje.
+#	2. Maximo 50 carácteres para tu mensaje de commit.
+#		2.1 Tu menaje es muy largo, puesdes separalo en diferentes commit.
+#	3. Lo mensajes deberan de ser claros, directos y que realimente refleje los cambios que lleva.

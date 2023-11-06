@@ -1,0 +1,102 @@
+--- Estructura de clases para css ---
+
+-- Contenedor --
+
+Crea una clase para el contenedor principal de tu página. Esto puede ser un <div> que rodea todo el contenido principal.
+
+.contenedor{
+    Estilos para el contenedor principal.
+}
+
+-- Encabezados (Headers) --
+
+Define clases para los diferentes niveles de encabezados (<h1>, <h2>, <h3>, etc.)
+
+.header{
+    Estilos para encabezados generales.
+}
+.header h1{
+    Estilos para encabezados de nivel 1
+}
+.header h2{
+    Estilos para encabezados de nivel 2
+}
+.header h3{
+    Estilos para encabezados de nivel 3
+}
+
+-- Botones --
+
+Crea clases para los diferentes tipos de botones y estados (por ejemplo, normal, hover, activo).
+
+.btn{
+    Estilos para botones normales
+}
+.btn:hover{
+    Estilos para botones al pasar el mouse
+}
+.btn.active{
+    Estilo para botones al pasar el mouse 
+}
+
+-- Formularios --
+
+Si tienes formularios, crea clases para los elementos de formulario comunes, como inputs, selects y textareas
+
+.form-input{
+    Estilos para inputs de formularios
+}
+.form-select{
+    Estilos para selects de formularios
+}
+.from-textarea{
+    Estilos para textareas de formulario
+}
+
+-- Secciones Especificas --
+
+Crea clases para secciones específicas de tu página, como encabezados, pies de página, barras laterales, etc.
+
+.header-section {
+    Estilos para la sección de encabezado 
+}
+
+.footer-section {
+    Estilos para la sección de pie de página 
+}
+
+.sidebar-section {
+    Estilos para la barra lateral 
+}
+
+-- Utilidad y Ayuda --
+
+Define clases de utilidad para estilos que se reutilizarán en toda la página, como márgenes, rellenos, colores, alineaciones, etc.
+
+.text-center {
+     Centrar texto 
+    text-align: center;
+}
+
+.mt-20 {
+     Margen superior de 20px 
+    margin-top: 20px;
+}
+
+ ... y más clases de utilidad según sea necesario
+
+-- Componentes Personalizados --
+
+Si tienes componentes personalizados en tu sitio web, como carruseles, tarjetas, menús desplegables, crea clases específicas para ellos.
+
+.carousel {
+     Estilos para el carrusel 
+}
+
+.card {
+     Estilos para las tarjetas 
+}
+
+.dropdown-menu {
+     Estilos para el menú desplegable 
+}
